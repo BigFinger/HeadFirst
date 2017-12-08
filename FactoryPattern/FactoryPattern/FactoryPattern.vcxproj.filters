@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\AbstractFactory">
+      <UniqueIdentifier>{4ebf9bfb-c969-47a3-90f4-6a1b969d6707}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\AbstractFactory">
+      <UniqueIdentifier>{76f31f50-5871-42bd-9b52-1b515220c786}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\FactoryMethod">
+      <UniqueIdentifier>{e4ed366e-92b3-4ea6-afd9-96d92154016c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\FactoryMethod">
+      <UniqueIdentifier>{e75b2de6-b743-4a98-8e94-7ab8a97e8f19}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AbstractFactory\BaconPizza.h">
+      <Filter>头文件\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\CheezePizza.h">
+      <Filter>头文件\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\FruitePizza.h">
+      <Filter>头文件\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\Pizza.h">
+      <Filter>头文件\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\PizzaStore.h">
+      <Filter>头文件\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\MaterialFactory.h">
+      <Filter>头文件\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\WhiteSugar.h">
+      <Filter>头文件\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\Sugar.h">
+      <Filter>头文件\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\BlackSugar.h">
+      <Filter>头文件\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\Pepper.h">
+      <Filter>头文件\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\GreenPepper.h">
+      <Filter>头文件\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\XMMaterialFactory.h">
+      <Filter>头文件\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\XMPizzaStore.h">
+      <Filter>头文件\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\RedPepper.h">
+      <Filter>头文件\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="FactoryMethod\BaconPizza.h">
+      <Filter>头文件\FactoryMethod</Filter>
+    </ClInclude>
+    <ClInclude Include="FactoryMethod\CheezePizza.h">
+      <Filter>头文件\FactoryMethod</Filter>
+    </ClInclude>
+    <ClInclude Include="FactoryMethod\FruitePizza.h">
+      <Filter>头文件\FactoryMethod</Filter>
+    </ClInclude>
+    <ClInclude Include="FactoryMethod\Pizza.h">
+      <Filter>头文件\FactoryMethod</Filter>
+    </ClInclude>
+    <ClInclude Include="FactoryMethod\PizzaStore.h">
+      <Filter>头文件\FactoryMethod</Filter>
+    </ClInclude>
+    <ClInclude Include="FactoryMethod\XMPizzaStore.h">
+      <Filter>头文件\FactoryMethod</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AbstractFactory\Sugar.cpp">
+      <Filter>源文件\AbstractFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractFactory\Pepper.cpp">
+      <Filter>源文件\AbstractFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractFactory\XMMaterialFactory.cpp">
+      <Filter>源文件\AbstractFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractFactory\XMPizzaStore.cpp">
+      <Filter>源文件\AbstractFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractFactory\PizzaStore.cpp">
+      <Filter>源文件\AbstractFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractFactory\Pizza.cpp">
+      <Filter>源文件\AbstractFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FactoryMethod\Pizza.cpp">
+      <Filter>源文件\FactoryMethod</Filter>
+    </ClCompile>
+    <ClCompile Include="FactoryMethod\PizzaStore.cpp">
+      <Filter>源文件\FactoryMethod</Filter>
+    </ClCompile>
+    <ClCompile Include="FactoryMethod\XMPizzaStore.cpp">
+      <Filter>源文件\FactoryMethod</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
