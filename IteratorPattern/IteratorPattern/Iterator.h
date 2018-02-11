@@ -3,6 +3,6 @@
 template< class T>
 class Iterator{
 public:
-    bool hasNext() = 0;
-    T& next() = 0;
+    virtual bool hasNext() = 0;
+    virtual T& next() = 0;
 };
