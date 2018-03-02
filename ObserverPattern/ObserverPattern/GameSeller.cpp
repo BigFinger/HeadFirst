@@ -13,8 +13,7 @@ GameSeller::~GameSeller(){
 
 void GameSeller::update(){
 	GameData* data = static_cast<GameData*>(subject);
-	string game = data->getChessGame();
-	printf("Oh yeah! This Game will Sell Well, I will be rich~~~%s\n", game);
+	printf("Oh yeah! This Game will Sell Well, I will be rich~~~%s\n");
 	display();
 }
 

@@ -132,6 +132,12 @@
     <ClInclude Include="FactoryMethod\Pizza.h" />
     <ClInclude Include="FactoryMethod\PizzaStore.h" />
     <ClInclude Include="FactoryMethod\XMPizzaStore.h" />
+    <ClInclude Include="SimpleFactory\BaconPizza.h" />
+    <ClInclude Include="SimpleFactory\CheezePizza.h" />
+    <ClInclude Include="SimpleFactory\FruitePizza.h" />
+    <ClInclude Include="SimpleFactory\Pizza.h" />
+    <ClInclude Include="SimpleFactory\PizzaFactory.h" />
+    <ClInclude Include="SimpleFactory\PizzaStore.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AbstractFactory\Pepper.cpp" />
@@ -144,6 +150,9 @@
     <ClCompile Include="FactoryMethod\PizzaStore.cpp" />
     <ClCompile Include="FactoryMethod\XMPizzaStore.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="SimpleFactory\Pizza.cpp" />
+    <ClCompile Include="SimpleFactory\PizzaFactory.cpp" />
+    <ClCompile Include="SimpleFactory\PizzaStore.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -9,7 +9,7 @@ int main(){
 	GameSeller *seller = new GameSeller(gameData);
 	GameHater *hater = new GameHater(gameData);
 
-	gameData->measureChange("ø’÷ÆπÏº£", "”¢–€…±", "¥©‘Ω¡„œﬂ");
+	gameData->setMeasurements("ø’÷ÆπÏº£", "”¢–€…±", "¥©‘Ω¡„œﬂ");
 	delete gameData;
 	delete lover;
 	delete seller;

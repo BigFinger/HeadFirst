@@ -12,7 +12,8 @@ public:
 public:
 	bool registerObserver(Observer* ob);
 	bool removeObserver(Observer* ob);
-	void measureChange(string rpgGame, string chessGame, string shootGame);
+	void setMeasurements(string rpgGame, string chessGame, string shootGame);
+    void measureChanged();
 public:
 	string getRpgGame();
 	string getChessGame();

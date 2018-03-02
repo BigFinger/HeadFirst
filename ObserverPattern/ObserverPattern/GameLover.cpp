@@ -13,8 +13,7 @@ GameLover::~GameLover(){
 
 void GameLover::update(){
 	GameData* data = static_cast<GameData*>(subject);
-	string game = data->getRpgGame();
-	printf("Oh yeah! I Love this Game %s\n", game);
+	printf("Oh yeah! I Love this Game %s\n");
 	display();
 }
 

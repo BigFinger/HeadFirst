@@ -25,6 +25,12 @@
     <Filter Include="源文件\FactoryMethod">
       <UniqueIdentifier>{e75b2de6-b743-4a98-8e94-7ab8a97e8f19}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\SimpleFactory">
+      <UniqueIdentifier>{1bdb795c-1d15-4609-8d42-b5a35215de4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\SimpleFactory">
+      <UniqueIdentifier>{c36d065c-efef-4844-8d66-2be715bd9d91}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractFactory\BaconPizza.h">
@@ -87,6 +93,24 @@
     <ClInclude Include="FactoryMethod\XMPizzaStore.h">
       <Filter>头文件\FactoryMethod</Filter>
     </ClInclude>
+    <ClInclude Include="SimpleFactory\BaconPizza.h">
+      <Filter>头文件\SimpleFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleFactory\CheezePizza.h">
+      <Filter>头文件\SimpleFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleFactory\FruitePizza.h">
+      <Filter>头文件\SimpleFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleFactory\Pizza.h">
+      <Filter>头文件\SimpleFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleFactory\PizzaFactory.h">
+      <Filter>头文件\SimpleFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleFactory\PizzaStore.h">
+      <Filter>头文件\SimpleFactory</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AbstractFactory\Sugar.cpp">
@@ -118,6 +142,15 @@
     </ClCompile>
     <ClCompile Include="FactoryMethod\XMPizzaStore.cpp">
       <Filter>源文件\FactoryMethod</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleFactory\Pizza.cpp">
+      <Filter>源文件\SimpleFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleFactory\PizzaFactory.cpp">
+      <Filter>源文件\SimpleFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleFactory\PizzaStore.cpp">
+      <Filter>源文件\SimpleFactory</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

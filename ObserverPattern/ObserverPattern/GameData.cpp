@@ -36,9 +36,19 @@ bool GameData::removeObserver(Observer* ob){
 	return false;
 }
 
-void GameData::measureChange(string rpgGame, string chessGame, string shootGame){
-	setChange(true);
-	notifyObservers();
+void GameData::setMeasurements(string rpgGame, string chessGame, string shootGame){
+    setChange(true);
+    this->chessGame = chessGame;
+    this->rpgGame = rpgGame;
+    this->shootGame = shootGame;
+    measureChanged();
+}
+
+void GameData::measureChanged(){
+    if (hasChange)
+    {
+	    notifyObservers();
+    }
 }
 
 void GameData::setChange(bool ret){

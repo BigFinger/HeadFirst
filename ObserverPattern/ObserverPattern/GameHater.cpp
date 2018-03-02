@@ -13,8 +13,7 @@ GameHater::~GameHater(){
 
 void GameHater::update(){
 	GameData* data = static_cast<GameData*>(subject);
-	string game = data->getShootGame();
-	printf("Oh No! It will waste my time %s\n", game);
+	printf("Oh No! It will waste my time %s\n");
 	display();
 }
 
